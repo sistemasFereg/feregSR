@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "es2016",
+    "react-native"
+  ],
+  "env": {
+    "plugins": [
+      "flow-react-proptypes"
+    ]
+  }
+}

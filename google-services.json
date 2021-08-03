@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1073184985324",
+    "project_id": "fereg-sr",
+    "storage_bucket": "fereg-sr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073184985324:android:36f5663fb7711b0c9ad5c9",
+        "android_client_info": {
+          "package_name": "com.fereg.feregsr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073184985324-kqa5b5tprtf12ubd55tlne1ssn6kluq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe_hwD9GqhEfgJfbnq8BqRe_aDeYLbosU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073184985324-kqa5b5tprtf12ubd55tlne1ssn6kluq7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073184985324-q72l9m92i3dieqvgcidprfaem624efp7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fereg.feregsr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

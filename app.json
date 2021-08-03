@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "feregSR",
+    "slug": "feregSR",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#232323"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./src/assets/icon96x96.png",
+          "mode": "production",
+          "color": "#bd8234"
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fereg.feregsr",
+      "buildNumber": "1.0.0",
+      "usesAppleSignIn": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "fetch", "audio"]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyB36ui9leby2k-QzIQKgNw-HN9sFuZ_Z1A"
+      }
+    },
+    "android": {
+      "package": "com.fereg.feregsr",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#232323"
+      },
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyB36ui9leby2k-QzIQKgNw-HN9sFuZ_Z1A" }   
+      },
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
